@@ -1,0 +1,13 @@
+{
+  "root": true,
+  "extends": [
+    "plugin:vue-libs/recommended"
+  ],
+  "rules": {
+    "space-before-function-paren": ["error", {
+      "anonymous": "never",
+      "named": "never",
+      "asyncArrow": "always"
+    }]
+  }
+}

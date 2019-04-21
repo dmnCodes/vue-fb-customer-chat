@@ -1,0 +1,56 @@
+{
+  "name": "vue-fb-customer-chat",
+  "description": "Facebook Customer Chat Plugin for Vue.js",
+  "version": "0.0.0",
+  "author": {
+    "name": "Damian Przepiórka",
+    "email": "damian.przepiorka@gmail.com",
+    "url": "https://dmnWebDev.io"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmnWebDesign/vue-fb-customerchat.git"
+  },
+  "main": "dist/vue-fb-customerchat.cjs.js",
+  "module": "dist/vue-fb-customerchat.esm.js",
+  "browser": "dist/vue-fb-customerchat.umd.js",
+  "scripts": {
+    "dev": "NODE_ENV=development rollup -c -w & vue-cli-service serve",
+    "build": "NODE_ENV=production rollup -c",
+    "build:docs": "NODE_ENV=production vue-cli-service build"
+  },
+  "dependencies": {
+    "ms": "^2.1.1",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@vue/cli-service": "^3.6.0",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue-libs": "^3.0.0",
+    "rollup": "^1.10.0",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-commonjs": "^9.3.4",
+    "rollup-plugin-eslint": "^5.1.0",
+    "rollup-plugin-node-resolve": "^4.2.3",
+    "rollup-plugin-uglify": "^6.0.2",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "vue",
+    "vuejs",
+    "fb",
+    "facebook",
+    "customer",
+    "chat",
+    "customerchat",
+    "messenger"
+  ]
+}
