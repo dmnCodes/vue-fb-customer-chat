@@ -1,7 +1,7 @@
 // const fs = require('fs');
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/vue-fb-customerchat/'
+    ? '/vue-fb-customer-chat/'
     : '/',
   outputDir: 'docs',
   devServer: {
