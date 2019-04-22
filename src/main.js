@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import App from './App.vue'
-import VueFbCustomerchat from '../dist/vue-fb-customerchat.umd.js'
+import VueFbCustomerChat from '../dist/vue-fb-customer-chat.umd.js'
 
-Vue.use(VueFbCustomerchat, {
+Vue.use(VueFbCustomerChat, {
   page_id: 562547237566000,
   theme_color: '#2c3e50',
   minimized: true,

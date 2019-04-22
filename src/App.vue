@@ -1,7 +1,7 @@
 <template>
   <div id="app">
       <img alt="Vue logo" src="./assets/logo.png">
-      <h1>vue-fb-customerchat</h1>
+      <h1>vue-fb-customer-chat</h1>
       <h3>Facebook Customer Chat Plugin for Vue.js</h3>
   </div>
 </template>

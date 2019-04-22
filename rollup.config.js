@@ -13,7 +13,7 @@ export default [
 	{
 		input: 'libs/index.js',
 		output: {
-			name: 'VueFbCustomerchat',
+			name: 'VueFbCustomerChat',
 			file: pkg.browser,
 			format: 'umd'
 		},

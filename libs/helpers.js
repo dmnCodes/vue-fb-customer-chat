@@ -14,12 +14,12 @@ export function fetchFbSdk(options) {
       js.src = 'https://connect.facebook.net/' + locale + '/sdk/xfbml.customerchat.js'
       fjs.parentNode.insertBefore(js, fjs)
       js.onload = function() {
-        console.log('%cVueFbCustomerchat:: loaded', log.info)
+        console.log('%cVueFbCustomerChat:: loaded', log.info)
         resolve()
       }
       js.onerror = function() {
         reject()
-        console.error('%cVueFbCustomerchat:: NOT loaded', log.error)
+        console.error('%cVueFbCustomerChat:: NOT loaded', log.error)
       }
     })(document, 'script', 'facebook-jssdk')
   })
@@ -49,3 +49,28 @@ export function getFbSdk(options) {
     }
   })
 }
+
+export function mountFbCustomerChat(options) {
+  const elem = document.createElement('div')
+  elem.setAttribute('class', 'fb-customerchat')
+  elem.setAttribute('attribution', 'setup_tool')
+
+  // set attributes
+  Object.entries(options).forEach(attr => {
+    elem.setAttribute(attr[0], attr[1])
+  })
+  document.body.appendChild(elem)
+}
+
+// TODO:
+// // events to emit
+// FB.Event.subscribe('customerchat.load', () => console.log('customerchat.load'));
+// FB.Event.subscribe('customerchat.show', () => console.log('customerchat.show'));
+// FB.Event.subscribe('customerchat.hide', () => console.log('customerchat.hide'));
+// FB.Event.subscribe('customerchat.dialogShow', () => console.log('customerchat.dialogShow'));
+// FB.Event.subscribe('customerchat.dialogHide', () => console.log('customerchat.dialogHide'));
+// // triggers
+// FB.CustomerChat.show(shouldShowDialog: boolean);
+// FB.CustomerChat.hide();
+// FB.CustomerChat.hideDialog();
+// FB.CustomerChat.showDialog();
