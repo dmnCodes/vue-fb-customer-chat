@@ -4,6 +4,23 @@
       <img alt="Vue logo" src="./assets/logo.png">
       <h1>vue-fb-customer-chat</h1>
       <h3>Facebook Customer Chat Plugin for Vue.js</h3>
+      <p align="center">
+        <a href="https://www.npmjs.com/package/vue-fb-customer-chat">
+          <img alt="npm" src="https://img.shields.io/npm/v/vue-fb-customer-chat.svg" />
+        </a>
+        <a href="https://bundlephobia.com/result?p=vue-fb-customer-chat">
+          <img alt="npm" src="https://badgen.net/bundlephobia/minzip/vue-fb-customer-chat" />
+        </a>
+        <a href="https://npm-stat.com/charts.html?package=vue-fb-customer-chat">
+          <img alt="npm" src="https://img.shields.io/npm/dm/vue-fb-customer-chat.svg" />
+        </a>
+        <a href="http://isitmaintained.com/project/dmnWebDesign/vue-fb-customer-chat">
+          <img src="http://isitmaintained.com/badge/resolution/dmnWebDesign/vue-fb-customer-chat.svg" alt="Average time to resolve an issue" />
+        </a>
+        <a href="http://isitmaintained.com/project/dmnWebDesign/vue-fb-customer-chat">
+          <img src="http://isitmaintained.com/badge/open/dmnWebDesign/vue-fb-customer-chat.svg" alt="Percentage of issues still open" />
+        </a>
+      </p>
     </div>
     <div class="github">
       <a target="_blank" :href="repository">
@@ -49,6 +66,10 @@ body {
 
 h3 {
   font-weight: 300;
+}
+
+p {
+  margin-top: 2em;
 }
 
 .github {
