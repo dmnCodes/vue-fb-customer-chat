@@ -1,10 +1,32 @@
-[![npm](https://img.shields.io/npm/dm/vue-fb-customer-chat.svg)](https://npm-stat.com/charts.html?package=vue-fb-customer-chat)
-[![npm](https://img.shields.io/npm/v/vue-fb-customer-chat.svg)](https://www.npmjs.com/package/vue-fb-customer-chat)
-[![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/dmnWebDesign/vue-fb-customer-chat.svg)](http://isitmaintained.com/project/dmnWebDesign/vue-fb-customer-chat "Average time to resolve an issue")
-[![Percentage of issues still open](http://isitmaintained.com/badge/open/dmnWebDesign/vue-fb-customer-chat.svg)](http://isitmaintained.com/project/dmnWebDesign/vue-fb-customer-chat "Percentage of issues still open")
+# Vue Fb Customer Chat
+> Facebook Customer Chat Plugin for Vue.js
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/vue-fb-customer-chat">
+    <img alt="npm" src="https://img.shields.io/npm/v/vue-fb-customer-chat.svg" />
+  </a>
+  <a href="https://bundlephobia.com/result?p=vue-fb-customer-chat">
+    <img alt="npm" src="https://badgen.net/bundlephobia/minzip/vue-fb-customer-chat" />
+  </a>
+  <a href="https://npm-stat.com/charts.html?package=vue-fb-customer-chat">
+    <img alt="npm" src="https://img.shields.io/npm/dm/vue-fb-customer-chat.svg" />
+  </a>
+  <a href="http://isitmaintained.com/project/dmnWebDesign/vue-fb-customer-chat">
+    <img src="http://isitmaintained.com/badge/resolution/dmnWebDesign/vue-fb-customer-chat.svg" alt="Average time to resolve an issue" />
+  </a>
+  <a href="http://isitmaintained.com/project/dmnWebDesign/vue-fb-customer-chat">
+    <img src="http://isitmaintained.com/badge/open/dmnWebDesign/vue-fb-customer-chat.svg" alt="Percentage of issues still open" />
+  </a>
+</p>
 
 
-# Installation
+
+## Demo
+[https://dmnwebdesign.github.io/vue-fb-customer-chat/](https://dmnwebdesign.github.io/vue-fb-customer-chat/)
+
+
+
+## Installation
 Install using npm
 ```sh
 $ npm install vue-fb-customer-chat
@@ -17,8 +39,8 @@ $ yarn add vue-fb-customer-chat
 
 
 
-# Usage
-### For Vue.js projects.
+## Usage
+#### For Vue.js projects.
 
 
 ```js
@@ -34,7 +56,7 @@ Vue.use(VueFbCustomerChat, {
 
 
 
-### For Nuxt.js projects.
+#### For Nuxt.js projects.
 Create 'plugins/vue-fb-customer-chat.js'
 
 ```js
