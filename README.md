@@ -1,4 +1,5 @@
 [![npm](https://img.shields.io/npm/dm/vue-fb-customer-chat.svg)](https://npm-stat.com/charts.html?package=vue-fb-customer-chat)
+[![npm](https://badgen.net/bundlephobia/minzip/vue-fb-customer-chat)](https://bundlephobia.com/result?p=vue-fb-customer-chat)
 [![npm](https://img.shields.io/npm/v/vue-fb-customer-chat.svg)](https://www.npmjs.com/package/vue-fb-customer-chat)
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/dmnWebDesign/vue-fb-customer-chat.svg)](http://isitmaintained.com/project/dmnWebDesign/vue-fb-customer-chat "Average time to resolve an issue")
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/dmnWebDesign/vue-fb-customer-chat.svg)](http://isitmaintained.com/project/dmnWebDesign/vue-fb-customer-chat "Percentage of issues still open")
