@@ -4,10 +4,11 @@ import { getFbSdk, mountFbCustomerChat } from './helpers'
 const VueFbCustomerChat = {
   install: (Vue, options) => {
     Vue.fbCustomerChat = {
-      setOptions (otherOptions) {
-        options = { ...options, ...otherOptions}
+      setOptions(otherOptions) {
+        options = { ...options, ...otherOptions }
       }
     }
+
     Object.defineProperties(Vue.prototype, {
       $fbCustomerChat: {
         get: () => {
