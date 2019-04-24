@@ -44,6 +44,12 @@ export default {
     repository() {
       return repository.url.replace('git+', '')
     }
+  },
+
+  mounted() {
+    this.$fbCustomerChat.setOptions({
+      theme_color: '#41B883'
+    })
   }
 }
 </script>
@@ -56,6 +62,9 @@ export default {
 }
 
 html {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
   font-family: 'Dosis', Helvetica, Arial, sans-serif;
   font-size: 13px;
   text-align: center;
@@ -70,7 +79,7 @@ html {
   }
 }
 
-body {
+#app {
   display: flex;
   justify-content: center;
   align-items: center;
