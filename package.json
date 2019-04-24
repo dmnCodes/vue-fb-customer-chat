@@ -1,7 +1,7 @@
 {
   "name": "vue-fb-customer-chat",
   "description": "Facebook Customer Chat Plugin for Vue.js",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "author": {
     "name": "Damian Przepiórka",
     "email": "damian.przepiorka@gmail.com",

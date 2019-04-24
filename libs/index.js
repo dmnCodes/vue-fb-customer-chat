@@ -3,21 +3,32 @@ import { getFbSdk, mountFbCustomerChat } from './helpers'
 
 const VueFbCustomerChat = {
   install: (Vue, options) => {
-    getFbSdk(options).then(() => {
-      if (options.page_id) {
-        mountFbCustomerChat(options)
-      } else {
-        console.error(
-          '%cVueFbCustomerChat:: You have to specify `page_id`',
-          log.error
-        )
+    Vue.fbCustomerChat = {
+      setOptions (otherOptions) {
+        options = { ...options, ...otherOptions}
+      }
+    }
+    Object.defineProperties(Vue.prototype, {
+      $fbCustomerChat: {
+        get: () => {
+          return Vue.fbCustomerChat
+        }
       }
     })
 
     Vue.mixin({
       mounted() {
         if (!this.$parent) {
-          console.log('Hello from created hook!')
+          getFbSdk(options).then(() => {
+            if (options.page_id) {
+              mountFbCustomerChat(options)
+            } else {
+              console.error(
+                '%cVueFbCustomerChat:: You have to specify `page_id`',
+                log.error
+              )
+            }
+          })
         }
       }
     })
