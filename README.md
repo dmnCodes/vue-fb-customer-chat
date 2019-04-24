@@ -1,4 +1,4 @@
-# Vue Fb Customer Chat
+<h1 align="center">Vue Fb Customer Chat</h1>
 > Facebook Customer Chat Plugin for Vue.js
 
 <p align="center">

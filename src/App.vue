@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <div class="branding-wrapper">
-      <img alt="Vue logo" src="./assets/logo.png">
-      <h1>vue-fb-customer-chat</h1>
+      <Logo />
+      <!-- <h1>vue-fb-customer-chat</h1> -->
       <h3>Facebook Customer Chat Plugin for Vue.js</h3>
       <p align="center">
         <a href="https://www.npmjs.com/package/vue-fb-customer-chat">
@@ -32,14 +32,19 @@
 
 <script>
 const { repository } = require('../package.json')
+import Logo from '@/components/Logo'
 export default {
   name: 'app',
+
+  components: {
+    Logo
+  },
 
   computed: {
     repository() {
       return repository.url.replace('git+', '')
     }
-  },
+  }
 }
 </script>
 
@@ -50,13 +55,22 @@ export default {
   padding: 0;
 }
 
-body {
+html {
   font-family: 'Dosis', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-size: 13px;
   text-align: center;
   color: #2c3e50;
 
+  @media (min-width: 600px) {
+    font-size: 15px;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 16px;
+  }
+}
+
+body {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,8 +78,13 @@ body {
   height: 100vh;
 }
 
+h1 {
+  font-weight: 600;
+}
+
 h3 {
   font-weight: 300;
+  font-size: 1.3rem;
 }
 
 p {

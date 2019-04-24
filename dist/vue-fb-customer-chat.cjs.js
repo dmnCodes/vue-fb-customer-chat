@@ -84,23 +84,30 @@ function mountFbCustomerChat(options) {
 
 const VueFbCustomerChat = {
   install: (Vue, options) => {
-    Vue.mixin({
-      mounted() {
-        console.log('Hello from created hook!');
-      }
-    });
-
     getFbSdk(options).then(() => {
       if (options.page_id) {
         mountFbCustomerChat(options);
       } else {
         console.error(
-          '%cVueFbCustomerChat:: You have to specify `pageId`',
+          '%cVueFbCustomerChat:: You have to specify `page_id`',
           log.error
         );
       }
     });
+
+    Vue.mixin({
+      mounted() {
+        if (!this.$parent) {
+          console.log('Hello from created hook!');
+        }
+      }
+    });
   }
 };
+
+// register plugin if it is used via cdn or directly as a script tag
+if (typeof window !== 'undefined' && window.Vue) {
+  window.VueFbCustomerChat = VueFbCustomerChat;
+}
 
 module.exports = VueFbCustomerChat;
