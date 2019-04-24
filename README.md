@@ -1,5 +1,4 @@
 <h1 align="center">Vue Fb Customer Chat</h1>
-> Facebook Customer Chat Plugin for Vue.js
 
 <p align="center">
   <a href="https://www.npmjs.com/package/vue-fb-customer-chat">
@@ -18,6 +17,8 @@
     <img src="http://isitmaintained.com/badge/open/dmnWebDesign/vue-fb-customer-chat.svg" alt="Percentage of issues still open" />
   </a>
 </p>
+
+> Facebook Customer Chat Plugin for Vue.js
 
 
 
