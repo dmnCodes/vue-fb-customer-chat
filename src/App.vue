@@ -23,7 +23,7 @@
       </p>
     </div>
     <div class="github">
-      <a target="_blank" :href="repository">
+      <a target="_blank" :href="repository" @click.native="clickGitHub">
         <img src="./assets/GitHub-Mark-64px.png" />
       </a>
     </div>
@@ -50,6 +50,22 @@ export default {
     this.$fbCustomerChat.setOptions({
       theme_color: '#41B883'
     })
+
+    this.$ga.page({
+      page: '/',
+      title: 'Home page',
+      location: window.location.href
+    })
+  },
+
+  methods: {
+    clickGitHub() {
+      this.$ga.event({
+        eventCategory: 'links',
+        eventAction: 'click',
+        eventLabel: 'GitHub'
+      })
+    }
   }
 }
 </script>
