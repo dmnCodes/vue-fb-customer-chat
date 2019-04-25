@@ -4,7 +4,7 @@ import VueFbCustomerChat from '../dist/vue-fb-customer-chat.umd.js'
 import App from './App.vue'
 
 Vue.use(VueAnalytics, {
-  id: 'UA-139039966-1'
+  id: 'UA-139039966-2'
 })
 
 Vue.use(VueFbCustomerChat, {
