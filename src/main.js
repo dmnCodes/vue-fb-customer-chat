@@ -1,6 +1,11 @@
 import Vue from 'vue'
-import App from './App.vue'
+import VueAnalytics from 'vue-analytics'
 import VueFbCustomerChat from '../dist/vue-fb-customer-chat.umd.js'
+import App from './App.vue'
+
+Vue.use(VueAnalytics, {
+  id: 'UA-139039966-1'
+})
 
 Vue.use(VueFbCustomerChat, {
   page_id: 562547237566000,
