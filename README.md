@@ -51,7 +51,7 @@ import VueFbCustomerChat from 'vue-fb-customer-chat'
 Vue.use(VueFbCustomerChat, {
   page_id: null, //  change 'null' to your Facebook Page ID,
   theme_color: '#333333', // theme color in HEX
-  location: 'en_US', // default 'en_US'
+  locale: 'en_US', // default 'en_US'
 })
 ```
 
@@ -67,7 +67,7 @@ import VueFbCustomerChat from 'vue-fb-customer-chat'
 Vue.use(VueFbCustomerChat, {
   page_id: null, //  change 'null' to your Facebook Page ID,
   theme_color: '#333333', // theme color in HEX
-  location: 'en_US', // default 'en_US'
+  locale: 'en_US', // default 'en_US'
 })
 ```
 
