@@ -20,11 +20,7 @@
     "build": "NODE_ENV=production rollup -c",
     "build:docs": "NODE_ENV=production vue-cli-service build"
   },
-  "dependencies": {
-    "ms": "^2.1.1",
-    "vue": "^2.6.10",
-    "vue-analytics": "^5.16.4"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
@@ -33,6 +29,7 @@
     "babel-plugin-transform-remove-console": "^6.9.4",
     "eslint": "^5.16.0",
     "eslint-plugin-vue-libs": "^3.0.0",
+    "ms": "^2.1.2",
     "node-sass": "^4.11.0",
     "rollup": "^1.10.0",
     "rollup-plugin-babel": "^4.3.2",
@@ -41,6 +38,8 @@
     "rollup-plugin-node-resolve": "^4.2.3",
     "rollup-plugin-uglify": "^6.0.2",
     "sass-loader": "^7.1.0",
+    "vue": "^2.6.10",
+    "vue-analytics": "^5.17.2",
     "vue-template-compiler": "^2.6.10"
   },
   "files": [
