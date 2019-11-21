@@ -35,7 +35,7 @@ function fetchFbSdk(options) {
 function initFbSdk(options) {
   return new Promise(resolve => {
     window.fbAsyncInit = function() {
-      const defaults = { cookie: true, xfbml: true, version: 'v3.0' };
+      const defaults = { cookie: true, xfbml: true, version: 'v5.0' };
       options = { ...defaults, ...options };
       window.FB.init(options);
       resolve();
