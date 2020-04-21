@@ -71,7 +71,7 @@ Vue.use(VueFbCustomerChat, {
 })
 ```
 
-Add plugin in nuxt.conf.js file for plugins section
+Add plugin in nuxt.config.js file for plugins section
 ```js
 plugins: [
   { src: '~/plugins/vue-fb-customer-chat.js', ssr: false }
