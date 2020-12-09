@@ -42,7 +42,7 @@ $ yarn add vue-fb-customer-chat
 
 ## Usage
 #### Setting up the Messenger
-When and where will the next event take place? For the messenger to work, you need to enable it on Facebook first:
+For the messenger to work, you need to enable it on Facebook first:
 
 1. Go to your Page on Facebook
 2. Go to `About` and copy the Page ID (https://www.facebook.com/help/1503421039731588)
