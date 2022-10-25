@@ -5,12 +5,12 @@
   "author": {
     "name": "Damian Przepiórka",
     "email": "damian.przepiorka@gmail.com",
-    "url": "https://dmnWebDev.io"
+    "url": "https://dmn.codes/"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dmnWebDesign/vue-fb-customer-chat.git"
+    "url": "git+https://github.com/dmnCodes/vue-fb-customer-chat.git"
   },
   "main": "dist/vue-fb-customer-chat.cjs.js",
   "module": "dist/vue-fb-customer-chat.esm.js",

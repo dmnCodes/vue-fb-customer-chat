@@ -10,11 +10,11 @@
   <a href="https://npm-stat.com/charts.html?package=vue-fb-customer-chat">
     <img alt="npm" src="https://img.shields.io/npm/dm/vue-fb-customer-chat.svg" />
   </a>
-  <a href="http://isitmaintained.com/project/dmnWebDesign/vue-fb-customer-chat">
-    <img src="http://isitmaintained.com/badge/resolution/dmnWebDesign/vue-fb-customer-chat.svg" alt="Average time to resolve an issue" />
+  <a href="http://isitmaintained.com/project/dmnCodes/vue-fb-customer-chat">
+    <img src="http://isitmaintained.com/badge/resolution/dmnCodes/vue-fb-customer-chat.svg" alt="Average time to resolve an issue" />
   </a>
-  <a href="http://isitmaintained.com/project/dmnWebDesign/vue-fb-customer-chat">
-    <img src="http://isitmaintained.com/badge/open/dmnWebDesign/vue-fb-customer-chat.svg" alt="Percentage of issues still open" />
+  <a href="http://isitmaintained.com/project/dmnCodes/vue-fb-customer-chat">
+    <img src="http://isitmaintained.com/badge/open/dmnCodes/vue-fb-customer-chat.svg" alt="Percentage of issues still open" />
   </a>
 </p>
 
@@ -23,7 +23,7 @@
 
 
 ## Demo
-[https://dmnwebdesign.github.io/vue-fb-customer-chat/](https://dmnwebdesign.github.io/vue-fb-customer-chat/)
+[https://dmnCodes.github.io/vue-fb-customer-chat/](https://dmnCodes.github.io/vue-fb-customer-chat/)
 
 
 
