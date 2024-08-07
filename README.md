@@ -1,3 +1,9 @@
+# !!! Important !!!
+> On May 9, 2024, you will no longer be able to access any of the functionality of the Chat Plugin. Effective immediately, Chat Plugin in guest mode is no longer available. Other features like m.me links will still be available for you to use.
+https://developers.facebook.com/docs/messenger-platform/discovery/facebook-chat-plugin/
+# !!! Important !!!
+
+
 <h1 align="center">Vue Fb Customer Chat</h1>
 
 <p align="center">
